@@ -113,7 +113,6 @@ class convert():
 	        else:
 	            raise InvalidWordError, 'Words does not define a number or check the spelling %s' %w #proper word not given
         
-	    self.flag = 0
 	    self.update()
 	    print "Number: " + str(self.s)
 	    s = self.s
